@@ -13,7 +13,7 @@ __2.__ ```getUmfangKugel()```, ```getVolumenKugel()``` und ```getOberflaecheKuge
 
 ## Formelsammlung:
 * Zylinder
-  * V = (Pi*h*d²) / 4
+  * V = (Pi * h * d²) / 4
   * O = (d * Pi * (2h + d)) / 2
   * d = 2r
 * Kugel
