@@ -1,6 +1,6 @@
-# Aufgabe 1: Algorythmen und deren Eigenschaften
+# Aufgabe 1: Algorithmen und deren Eigenschaften
 ## a) Was versteht man unter Algorithmen?
-## b) Nenne und beschreibe kurz die Eigenschaften eines Algorythmus
+## b) Nenne und beschreibe kurz die Eigenschaften eines Algorithmus
 
 # Aufgabe 2
 Erstelle und implementiere das untere Formular mithilfe von VBA-Editor
@@ -33,7 +33,7 @@ __2.__ ```getUmfangKugel()```, ```getVolumenKugel()``` und ```getOberflaecheKuge
 ### a)
 > Ein Algorithmus ist eine Verarbeitungsvorschrift, die zum Lösen gleichartiger Probleme genutzt werden kann.
 ### b)
-> __Endlichkeit__: Ein Algorythmus besteht aus endlich vielen Anweisungen  
+> __Endlichkeit__: Ein Algorithmus besteht aus endlich vielen Anweisungen  
 > __Eindeutigkeit__: Die Anweisungen folgen einer _festgelegten, nicht willkürlichen_ Reihenfolge, sodass die gleiche Eingabe immer zur gleichen Ausgabe führt  
 > __Ausführbarkeit__: Jede Anweisung muss ausführbar sein  
 > __Allgemeingültigkeit__: Der Algorithmus muss auf alle Aufgaben gleicher Art anwendbar sein  
