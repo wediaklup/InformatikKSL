@@ -8,29 +8,154 @@
 Erstelle und implementiere das untere Formular mithilfe von VBA-Editor
 ![Formular](https://user-images.githubusercontent.com/101984195/186473426-ede87b1b-35ef-4653-8830-5836073d66b6.jpg)
 
-# Aufgabe 3: Geometrie – Funktionale Programmierung
+# Aufgabe 3: Geometrie - Funktionale Programmierung
 Erstelle eine Java-Klasse `Geometrie` und implementiere folgende Methoden:
 1. `getVolumenZylinder()` und `getOberflaecheZylinder()`, die aus der Höhe und einem Radius das Volumen und die Oberfläche eines Zylinders berechne[n].
-2. `getUmfangKugel()`, `getVolumenKugel()` und `getOberflaecheKugel()`, die anhand von dem Radius *r* Umfang, Volumen und Oberfläche einer Kugel berechnet.
+2. `getUmfangKugel()`, `getVolumenKugel()` und `getOberflaecheKugel()`, die anhand von dem Radius ```r``` Umfang, Volumen und Oberfläche einer Kugel berechnet.
 
-# Formelsammlung
-### Zylinder
-* _V_ = (π · _h_ · *d*²) / 4
-* _O_ = (_d_ · π · (2*h* + _d_)) / 2
-* _d_ = 2*r*
+## Formelsammlung:
+* Zylinder
+  * V = (Pi * h * d²) / 4
+  * O = (d * Pi * (2h + d)) / 2
+  * d = 2r
+* Kugel
+  * V = (Pi * d³) / 6
+  * O = Pi * d²
+  * d = 2r
+  * u = 2 * Pi * r
 
-### Kugel
-* _V_ = (π · *d*³) / 6
-* _O_ = π · *d*²
-* _d_ = 2*r*
-* _u_ = 2 · π · _r_
+### _Nachtrag_ – Abkürzungserkläuterungen
+_Nicht in der Klausur gegeben_
+* _Pi_ – π
+* _d_ – Durchmesser
+* _h_ – Höhe
+* _u_ – Umfang
+* _r_ – Radius
 
-### **_Nachtrag_** – Abkürzungserkläuterungen
-* *π* – Pi
-* *d* – Durchmesser
-* *h* – Höhe
-* *u* – Umfang
-* *r* – Radius
+### Merke: Achten sie bitte auf eine _ordentliche Darstellung_ und Code eben mit Kommentaren zu versehen.
 
+
+---
 # Lösungen
-Bitte um Ergänzung.
+__Bitte um Ergänzung.__
+
+## Aufgabe 1
+_Bitte um Ergänzung._
+
+## Aufgabe 2
+Auf korrekte Benennung der Elemente ist zu Achten
+```vba
+Private Sub cmdCalc1_Click()
+Dim a As Double 'Deklaration
+Dim b As Double 'Deklaration
+Dim ergebnis As Double 'Deklaration
+a = txtA.Value 'Zuweisung aus dem Eingabefeld
+b = txtB.Value 'Zuweisung aus dem Eingabefeld
+
+ergebnis = a * a + b * b 'Berechnung
+
+txtErgebnis.Value = ergebnis 'Ausgabe
+End Sub
+
+Private Sub cmdCalc2_Click()
+Dim a As Double 'Deklaration
+Dim b As Double 'Deklaration
+Dim ergebnis As Double 'Deklaration
+a = txtA.Value 'Zuweisung aus dem Eingabefeld
+b = txtB.Value 'Zuweisung aus dem Eingabefeld
+
+ergebnis = (a + a) * (b + b) 'Berechnung
+
+txtErgebnis.Value = ergebnis 'Ausgabe
+End Sub
+
+Private Sub cmdCalc3_Click()
+Dim a As Double 'Deklaration
+Dim b As Double 'Deklaration
+Dim ergebnis As Double 'Deklaration
+a = txtA.Value 'Zuweisung aus dem Eingabefeld
+b = txtB.Value 'Zuweisung aus dem Eingabefeld
+
+ergebnis = (a - b) * (a - b) * (a - b) 'Berechnung
+
+txtErgebnis.Value = ergebnis 'Ausgabe
+End Sub
+
+Private Sub cmdCalc4_Click()
+Dim a As Double 'Deklaration
+Dim b As Double 'Deklaration
+Dim ergebnis As Double 'Deklaration
+a = txtA.Value 'Zuweisung aus dem Eingabefeld
+b = txtB.Value 'Zuweisung aus dem Eingabefeld
+
+If b = 0 Then               'Test auf Division durch 0
+MsgBox "Division durch 0!"  'bei Erfolg: Warnung
+Else                        'sonst
+ergebnis = a / b            'Berechnung und
+txtErgebnis.Value = ergebnis 'Ausgabe
+End If
+End Sub
+
+Private Sub cmdExit_Click()
+End 'Beenden des Programms
+End Sub
+
+Private Sub cmdReset_Click()
+txtA.Value = "" 'Löschen der Felder
+txtB.Value = "" 'Löschen der Felder
+txtErgebnis.Value = "" 'Löschen der Felder
+End Sub
+```
+
+## Aufgabe 3
+```java
+package Klassenarbeit;
+
+public class Geometrie {
+  
+  public static double getVolumenZylinder(double h, double r) {
+    double volume; // Deklaration
+    double d = 2 * r; // Deklaration mit Zuweisung
+    volume = Math.PI * h * d * d * 0.25; // Berechnung
+    return volume; // Rückgabe
+  }
+  
+  public static double getOberflächeZylinder(double h, double r) {
+    double oberflaeche;  // Deklaration
+    double d = 2 * r; // Deklaration mit Zuweisung
+    oberflaeche = Math.PI * d * (2 * h + d) * 0.5; // Berechnung
+    return oberflaeche; // Rückgabe
+  }
+  
+  public static double getUmfangKugel(double r) {
+    double umfang;  // Deklaration
+    umfang = 2 * Math.PI * r; // Berechnung
+    return umfang; // Rückgabe
+  }
+  
+  public static double getVolumenKugel(double r) {
+    double volume;  // Deklaration
+    double d = 2 * r; // Deklaration mit Zuweisung
+    volume = math.PI * d * d * d * 1/6; // Berechnung
+    return volume; // Rückgabe
+  }
+  
+  public static double getOberflaecheKugel(double r) {
+    double oberflaeche;  // Deklaration
+    double d = 2 * r; // Deklaration mit Zuweisung
+    oberflaeche = Math.PI * d * d; // Berechnung
+    return oberflaeche; // Rückgabe
+  }
+  
+  public static void main(String[] args) {
+    // Test der Methoden
+    System.out.println("Zylinder:");
+    System.out.println(Geometrie.getVolumenZylinder(5, 2));
+    System.out.println(Geometrie.getOberflaecheZylinder(5, 2));
+    System.out.println("Kugel:");
+    System.out.println(Geometrie.getUmfangKugel(2)));
+    System.out.println(Geometrie.getVolumenKugel(2));
+    System.out.println(Geometrie.getOberflaecheKugel(2));
+  }
+}
+```
