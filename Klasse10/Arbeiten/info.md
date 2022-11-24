@@ -1,5 +1,5 @@
 Dies ist eine Sammlung von Klassenarbeiten. Sie können zum __Üben__ verwendet werden, sollten aber __nicht auswendig__ gelernt werden!\
-Die Nomenklatur für Klassenarbeiten folgen stets dem Schema:
+Die Nomenklatur für Klassenarbeiten folgt stets dem Schema:
   Klassenarbeit`#`_`Schuljahr`.md
 
 `#` steht hierbei für den Index der Klassenarbeit (Nr. 1, Nr. 2, Nr. 3, …) \
