@@ -5,7 +5,7 @@
 * **d)**: Nenne die drei grundlegende[n] Strukturen von Algorithmen.
 
 # Aufgabe 2
-Erstelle und implementiere das untere Formular mithilfe von VBA-Editor.
+Erstelle und implementiere das untere Formular mithilfe von VBA-Editor
 ![Formular](https://user-images.githubusercontent.com/101984195/186473426-ede87b1b-35ef-4653-8830-5836073d66b6.jpg)
 
 # Aufgabe 3: Geometrie – Funktionale Programmierung
