@@ -1,1 +1,6 @@
-Dies ist eine Sammlung von Klassenarbeiten. Sie können zum __Üben__ verwendet werden, sollten aber __nicht auswendig__ gelernt werden!
+Dies ist eine Sammlung von Klassenarbeiten. Sie können zum __Üben__ verwendet werden, sollten aber __nicht auswendig__ gelernt werden!\
+Die Nomenklatur für Klassenarbeiten folgen stets dem Schema:
+  Klassenarbeit`#`_`Schuljahr`.md
+
+`#` steht hierbei für den Index der Klassenarbeit (Nr. 1, Nr. 2, Nr. 3, …) \
+`Schuljahr` steht für das Schuljahr, für das die Arbeit gültig ist. Dabei ist das Schema `YYYY-YY` zu beachten. (z.B. _2022-23_)
