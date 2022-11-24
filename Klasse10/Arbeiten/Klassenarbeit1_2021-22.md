@@ -7,9 +7,9 @@ Erstelle und implementiere das untere Formular mithilfe von VBA-Editor
 ![Formular](https://user-images.githubusercontent.com/101984195/186473426-ede87b1b-35ef-4653-8830-5836073d66b6.jpg)
 
 # Aufgabe 3: Geometrie - Funktionale Programmierung
-Erstelle eine Java-Klasse "Geometrie" und implementiere folgende Methoden:  
-__1.__ ```getVolumenZylinder()``` und ```getOberflaecheZylinder()```, die aus der Höhe und einem Radius das Volumen und die Oberfläche eines Zylinder berechnen.  
-__2.__ ```getUmfangKugel()```, ```getVolumenKugel()``` und ```getOberflaecheKugel()```, die anhand vom Radius ```r``` Umfang, Volumen und Oberfläche einer Kugel berechnen.  
+Erstelle eine Java-Klasse ```Geometrie``` und implementiere folgende Methoden:  
+1. ```getVolumenZylinder()``` und ```getOberflaecheZylinder()```, die aus der Höhe und einem Radius das Volumen und die Oberfläche eines Zylinder berechnen.  
+2. ```getUmfangKugel()```, ```getVolumenKugel()``` und ```getOberflaecheKugel()```, die anhand vom Radius ```r``` Umfang, Volumen und Oberfläche einer Kugel berechnen.  
 
 ## Formelsammlung:
 * Zylinder
@@ -22,6 +22,13 @@ __2.__ ```getUmfangKugel()```, ```getVolumenKugel()``` und ```getOberflaecheKuge
   * d = 2r
   * u = 2 * Pi * r
 
+### _Nachtrag_ – Abkürzungserkläuterungen
+_Nicht in der Klausur gegeben_
+* _Pi_ – π
+* _d_ – Durchmesser
+* _h_ – Höhe
+* _u_ – Umfang
+* _r_ – Radius
 
 ### Merke: Achten sie bitte auf eine _ordentliche Darstellung_ und Code eben mit Kommentaren zu versehen.
 
