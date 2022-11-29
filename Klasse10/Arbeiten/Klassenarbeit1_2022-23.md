@@ -43,7 +43,7 @@ __Bitte um Ergänzung.__
 _Bitte um Ergänzung._
 
 ## Aufgabe 2
-Auf korrekte Benennung der Elemente ist zu Achten
+Auf korrekte Benennung der Elemente ist zu achten
 ```vba
 Private Sub cmdCalc1_Click()
 Dim a As Double 'Deklaration
