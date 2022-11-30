@@ -1,0 +1,1 @@
+"wedeuDb.sql" enthält Fehler in der Tabelle `Angestellte`, wie auch im Unterricht
