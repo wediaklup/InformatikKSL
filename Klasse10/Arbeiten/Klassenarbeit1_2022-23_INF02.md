@@ -1,3 +1,29 @@
+# Daten
+<table>
+ <tr>
+  <th>Klasse</th>
+  <td>10</td>
+ </tr>
+ <tr>
+  <th>Kurs</th>
+  <td>WPFINF02</td>
+ </tr>
+ <tr>
+  <th>Schuljahr</th>
+  <td>2022/23</td>
+ </tr>
+ <tr>
+  <th>Geschrieben</th>
+  <td>01. Dez. MMXXII</td>
+ </tr>
+ <tr>
+  <th>Zurückbekommen</th>
+  <td>12. Jan. MMXXIII</td>
+ </tr>
+ <tr>
+  <th colspan="2">~ Konstantin “wédiaklup” MMXXIII</th>
+</table>
+
 # Aufgabe 1
 * **a):** Erstelle und implementiere das untere Formular mithilfe von VBA-Editor. [Bild nicht verfügbar, siehe Lösung]
 * **b):** Zeichne für den Befehl `X/Y` ein passendes Flussdiagramm.
@@ -224,11 +250,3 @@ public class Kugel {
 }
 ```
 _nach Konstantin 10d_
-
-
-
-
-
-
-
-
