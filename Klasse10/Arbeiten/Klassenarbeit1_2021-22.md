@@ -1,6 +1,8 @@
 # Aufgabe 1: Algorithmen und deren Eigenschaften
-## a) Was versteht man unter Algorithmen?
-## b) Nenne und beschreibe kurz die Eigenschaften eines Algorithmus
+* a) Was versteht man unter Algorithmen?
+* b) Nenne und beschreibe kurz die Eigenschaften eines Algorithmus
+* c) Wie werden Algorithmen graphisch dargestellt?
+* d) Nenne die drei grundlegenden Struckturen von Algorithmen
 
 # Aufgabe 2
 Erstelle und implementiere das untere Formular mithilfe von VBA-Editor
@@ -44,6 +46,10 @@ _Nicht in der Klausur gegeben_
 > __Eindeutigkeit__: Die Anweisungen folgen einer _festgelegten, nicht willkürlichen_ Reihenfolge, sodass die gleiche Eingabe immer zur gleichen Ausgabe führt  
 > __Ausführbarkeit__: Jede Anweisung muss ausführbar sein  
 > __Allgemeingültigkeit__: Der Algorithmus muss auf alle Aufgaben gleicher Art anwendbar sein  
+### c)
+> Algorithmen werden mit Struktogrammen oder Flussdiagrammen dargestellt.
+### d)
+> Folge, Schleife, Verzweigung sind die grundlegenden Strukturen von Algorithmen.
 
 ## Aufgabe 2
 Auf korrekte Benennung der Elemente ist zu Achten
@@ -162,3 +168,8 @@ public class Geometrie {
   }
 }
 ```
+
+---
+Diese Arbeit wurde geschrieben:
+2021/22 Kurs1 1. Arbeit
+2022/23 Kurs1 1. Arbeit
