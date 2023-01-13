@@ -98,7 +98,7 @@ Dim ergebnis As Double
 x = txtInputX.Value
 y = txtInputY.value
 
-'Überprüfen, ob eine Brechnung möglich ist
+'Überprüfen, ob eine Berechnung möglich ist
 If y = 0 Then
     'Falls der Dividend Null ist, wird die Berechnung abgebrochen, da sonst eine Fehlermeldung erscheint
     txtOutput.Value = "ERROR"   'Anzeigen des Fehlers in der Benutzeroberfläche
