@@ -1,7 +1,3 @@
-Dies ist eine Sammlung von Klassenarbeiten. Sie können zum __Üben__ verwendet werden, sollten aber __nicht auswendig__ gelernt werden, könnte dies doch durchaus RisikoReich™ sein. Darüber hinaus hält sich der Lernerfolg dabei in Grenzen. \
-Die Nomenklatur für Klassenarbeiten folgt stets dem Schema:
-  Klassenarbeit`#`&#95;`Schuljahr`&#95;(`Kurs`).md
+Dies ist eine Sammlung von Klassenarbeiten. Sie können zum __Üben__ verwendet werden, sollten aber __nicht auswendig__ gelernt werden, könnte dies doch durchaus RisikoReich™ sein. Darüber hinaus hält sich der Lernerfolg dabei in Grenzen.
 
-`#` steht hierbei für den Index der Klassenarbeit (Nr. 1, Nr. 2, Nr. 3, …) \
-`Schuljahr` steht für das Schuljahr, für das die Arbeit gültig ist. Dabei ist das Schema `YYYY-YY` zu beachten. (z.B. _2022-23_)
-Sollten mehrere Kurse verschiedene Arbeiten erhalten haben, so ist `Kurs` das richtige Feld. (Bsp. _INF01_)
+Die Klassenarbeiten sind nach dem Jahr benannt, in dem sie erstmals hochgeladen wurden. Da sie aber durchaus häufig _recycled_ werden, gibt es ganz unten auch noch informationen, wer diese Arbeit schon alles geschrieben hat, falls euch das was nützt.

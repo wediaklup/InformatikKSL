@@ -1,0 +1,29 @@
+.header {
+    height: 200px;
+    width: auto;
+    background-color: #f08028;
+}
+.contentleft {
+    height: 700px;
+    width: 10%;
+    background-color: #ff0000;
+    float: left;
+}
+.content {
+    height: 700px;
+    width: 80%;
+    background-color: #0000ff;
+    float: left;
+}
+.contentright {
+    height: 700px;
+    width: 10%;
+    background-color: #00ff00;
+    float: right;
+}
+.footer {
+    height: 200px;
+    width: auto;
+    background-color: #2880f0;
+    clear: both;
+}

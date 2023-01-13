@@ -1,0 +1,23 @@
+.header {
+     height: 100px;
+     width: auto;
+     background-color:
+     #2E2EFE;
+}
+
+.headerFace { 
+     color: #FFFFFF;
+     font-size: 38pt;
+     font: bold;
+}
+
+.mailtel { 
+     color: #FFFFFF;
+     font: Verdana;
+     font-size: 12pt;
+}
+
+.anmelden {
+     color: #FFFFFF;
+     background-color: #2E2EFE;
+}
