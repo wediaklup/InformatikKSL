@@ -170,6 +170,6 @@ public class Geometrie {
 ```
 
 ---
-Diese Arbeit wurde geschrieben:
-2021/22 Kurs1 1. Arbeit
-2022/23 Kurs1 1. Arbeit
+Diese Arbeit wurde geschrieben:  
+2021/22 Kurs1 1. Arbeit  
+2022/23 Kurs1 1. Arbeit  
